@@ -1,0 +1,45 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: darkolivegreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.madeby
+{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    color: lightgrey;
+    font-style: italic;
+}
+
+header
+{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.jogosonline
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caio
+{
+    color: red;
+    font-style: italic;
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+}
