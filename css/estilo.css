@@ -2,19 +2,19 @@
 {
     padding: 0px;
     margin: 0px;
-    background-color: darkolivegreen;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #50808E;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .madeby
 {
-    font-size: 50px;
+    font-size: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-top: 80px;
+    justify-content: left;
     color: lightgrey;
     font-style: italic;
+    margin-left: 3vh;
 }
 
 header
@@ -25,11 +25,16 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 25px;
+    text-align: center;
+    height: 120px;
+    background-color: #69A297;
+    border-bottom: solid 2px #A3C9A8;
+    border-radius: 1vh;
 }
 
 .jogosonline
 {
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,9 +42,21 @@ header
 
 .caio
 {
-    color: red;
+    color: #DDD8C4;
     font-style: italic;
-    font-size: 50px;
-    padding-left: 20px;
+    font-size: 20px;
     font-weight: bold;
+    margin-left: 5px;
+}
+
+.pong-estilo
+{
+    border: solid 1vh #333;
+}
+
+.pe
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
